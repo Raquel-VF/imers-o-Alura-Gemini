@@ -40,6 +40,7 @@ body{
 .cabeçalho > h1{
     margin: 20px 0;
     padding: 15px;
+    color:#ffa500;
     background-color: rgba(0 ,0 , 0, 0.7);
     border-radius: 10px;
     border: 2px solid #cd7f32;
@@ -107,6 +108,12 @@ section.resultado p.descricao{
     line-height: 1.5;
     color: #e0e0e0;
     font-style: italic;
+}
+
+section.resultado p.descricao a{
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bolder;
 }
 
 footer{
