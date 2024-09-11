@@ -12,7 +12,7 @@ body{
     background-image: url(imagens/AdobeStock_878869882_Preview.jpeg);
     background-size: cover;
     color: #e0e0e0;   
-    height: 100vh;
+    
     
     display: flex;
     justify-content: center;
@@ -44,6 +44,30 @@ body{
     background-color: rgba(0 ,0 , 0, 0.7);
     border-radius: 10px;
     border: 2px solid #cd7f32;
+}
+/* Icones de cada signo */
+.icones-signos{
+    margin: 20px 0;
+    padding: 15px;
+    color:#ffa500;
+    background-color: rgba(0 ,0 , 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid #cd7f32;
+}
+
+.icones-signos img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.icones-signos-iframe{
+    
+}
+
+.icones-signos-iframe iframe{
+    width: 100%;
+    height: auto;
 }
 
 .btn-escolha{
