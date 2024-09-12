@@ -5,21 +5,17 @@
     padding: 0;
     margin: 0;
     font-family: "Cardo", "Cinzel", serif;
-
 }
 
 body{   
     background-image: url(imagens/AdobeStock_878869882_Preview.jpeg);
     background-size: cover;
     color: #e0e0e0;   
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,9 +25,7 @@ body{
     color:#e0e0e0;
     border: 2px solid #cd7f32;
     border-radius: 5px;
-    width: 80%;
-
-    
+    width: 80%;    
 }
 .cabeçalho{
     padding: 20px 0;
@@ -45,7 +39,7 @@ body{
     border-radius: 10px;
     border: 2px solid #cd7f32;
 }
-/* Icones de cada signo */
+/* inicio Icones de cada signo */
 .icones-signos{
     margin: 20px 0;
     padding: 15px;
@@ -54,28 +48,60 @@ body{
     border-radius: 10px;
     border: 2px solid #cd7f32;
 }
-
 .icones-signos img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-}
+} /* fim Icones de cada signo */
 
-.icones-signos-iframe{
-    
+ /* Inicio da section onde esta a foto do corpo e os signos */
+.signo-parte-corpo{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    color:#ffa500;
+    background-color: rgba(0 ,0 , 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid #cd7f32;
 }
-
-.icones-signos-iframe iframe{
-    width: 100%;
-    height: auto;
+.icones-signos-iframe img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;    
 }
+.icones-signos-iframe h2{
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #ffa500;
+    text-shadow: 2px 2px 4px #000000;
+}
+.icones-signos-iframe p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+    margin: 10px;
+}
+.icones-signos-iframe p > a{
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bolder;
+} /* fim da section onde esta a foto do corpo e os signos*/
 
 .btn-escolha{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
+    margin: 20px 0;
+    padding: 15px;
+    color:#ffa500;
+    background-color: rgba(0 ,0 , 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid #cd7f32;
 }
 
 section.btn-escolha label{

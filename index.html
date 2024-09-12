@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <hearder class="cabeçalho">
+    <div class="container"> <!-- Inicio do container -->
+        <hearder class="cabeçalho"> <!-- Inicio do cabeçalho -->
             <h1>Signos</h1>
             <section class="icones-signos">
-                <a href=""><img src="imagens/ari.png" alt="imagem de áries"></a>
-                <a href=""><img src="imagens/tou.png" alt="imagem de touro"></a>
-                <a href=""><img src="imagens/gem.png" alt="imagem de gêmeos"></a>
-                <a href=""><img src="imagens/can.png" alt="imahem de cancer"></a>
-                <a href=""><img src="imagens/lea.png" alt="imagem de leão"></a>
-                <a href=""><img src="imagens/vir.png" alt="imagem de virgem"></a>
-                <a href=""><img src="imagens/lib.png" alt="imagem de libra"></a>
-                <a href=""><img src="imagens/esc.png" alt="imagem de escorpião"></a>
-                <a href=""><img src="imagens/sag.png" alt="imagem de sagitário"></a>
-                <a href=""><img src="imagens/cap.png" alt="imagem de capricórnio"></a>
-                <a href=""><img src="imagens/aqu.png" alt="imagem de aquário"></a>
-                <a href=""><img src="imagens/pei.png" alt="imagem de peixes"></a>
+                <a href="#" onclick="mostrarSigno('aries')"><img src="imagens/ico-img-sig/ari.png" alt="imagem de áries"></a>
+                <a href="#" onclick="mostrarSigno('touro')"><img src="imagens/ico-img-sig/tou.png" alt="imagem de touro"></a>
+                <a href="#" onclick="mostrarSigno('gemeos')"><img src="imagens/ico-img-sig/gem.png" alt="imagem de gêmeos"></a>
+                <a href="#" onclick="mostrarSigno('cancer')"><img src="imagens/ico-img-sig/can.png" alt="imahem de cancer"></a>
+                <a href="#" onclick="mostrarSigno('leao')"><img src="imagens/ico-img-sig/lea.png" alt="imagem de leão"></a>
+                <a href="#" onclick="mostrarSigno('virgem')"><img src="imagens/ico-img-sig/vir.png" alt="imagem de virgem"></a>
+                <a href="#" onclick="mostrarSigno('libra')"><img src="imagens/ico-img-sig/lib.png" alt="imagem de libra"></a>
+                <a href="#" onclick="mostrarSigno('escorpiao')"><img src="imagens/ico-img-sig/esc.png" alt="imagem de escorpião"></a>
+                <a href="#" onclick="mostrarSigno('sagitario')"><img src="imagens/ico-img-sig/sag.png" alt="imagem de sagitário"></a>
+                <a href="#" onclick="mostrarSigno('capricornio')"><img src="imagens/ico-img-sig/cap.png" alt="imagem de capricórnio"></a>
+                <a href="#" onclick="mostrarSigno('aquario')"><img src="imagens/ico-img-sig/aqu.png" alt="imagem de aquário"></a>
+                <a href="#" onclick="mostrarSigno('peixes')"><img src="imagens/ico-img-sig/pei.png" alt="imagem de peixes"></a>
             </section>
-            <section class="icones-signos-iframe">
-                <iframe src="icones-signos.html" frameborder="0"></iframe>
-            </section>
-        </hearder>
+        </hearder> <!-- Fim do cabeçalho -->
         <main>
+            <section class="icones-signos-iframe"> <!-- Inicio da section onde esta a foto do corpo e os signos-->
+                <div class="signo-parte-corpo">
+                    <a href="https://i.pinimg.com/564x/0b/27/0c/0b270c9466e65d79dccf8e91a0315c06.jpg" target="_blank"><img src="imagens/signos-corpo.jpg" alt="signos-corpo"></a>
+                    <h2> Entenda a relação entre os 12 signos e os partes regidas por eles no nosso corpo </h2>
+                <div class="signo-texto">
+                    <p> A Astrologia tem uma vertente médica, a Astrologia Médica, na qual planetas e signos regem funções e órgãos do corpo, em uma teia de inter-relações bastante complexa, tal como acontece também no corpo humano. Nesta vertente, os signos regem partes do corpo, com Áries no topo do corpo, governando a cabeça, e Peixes na base, governando os pés.</p>
+                    <p>Ler mais sobre <a href="https://vanessatuleski.com.br/partes-do-corpo-regidas-por-signos/">Autora Vanessa Tuleski.</a></p>
+                </div>
+            </section> <!-- Fim da section onde esta a foto do corpo e os signos -->
             <section class="btn-escolha">
                 <label for="dataNascimento">Data de Nascimento</label>
                 <input type="date" id="dataNascimento">
@@ -42,10 +48,10 @@
                 </p>
             </section>
         </main>
-        <footer>
+        <footer> <!-- Inicio do footer -->
             <p>Criado por Raquel Vargas</p>
-        </footer>
+        </footer> <!-- Fim do footer -->
         <script src="app.js"></script>
-    </div>
+    </div><!-- Fim do container -->
 </body>
 </html>
