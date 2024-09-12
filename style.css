@@ -1,6 +1,73 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* Media Query para telas menores que 768px */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .icones-signos img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .signo-parte-corpo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icones-signos-iframe img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-escolha {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    section.resultado h2.seu-signo, 
+    section.resultado p.descricao {
+        font-size: 1rem;
+    }
+}
+
+/* Media Query para telas menores que 480px */
+@media (max-width: 480px) {
+    .cabeçalho > h1 {
+        font-size: 1.5rem;
+    }
+
+    .icones-signos img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icones-signos-iframe img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .btn-escolha button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    section.resultado h2.seu-signo {
+        font-size: 1rem;
+    }
+
+    section.resultado p.descricao {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -59,7 +126,6 @@ body{
     background-color: blue;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     margin: 20px 0;
     padding: 15px;
