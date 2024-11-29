@@ -1,3 +1,7 @@
+const p = document.querySelector('.cabeçalho p');
+const data = new Date();
+p.innerHTML = data.toLocaleString('pt-BR', {dateStyle:'full', timeStyle:'short'});
+
 function calcularSigno() {
     const dataNascimento = new Date(document.getElementById ('dataNascimento').value);
     const dia = dataNascimento.getDate();
